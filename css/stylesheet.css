@@ -1,0 +1,306 @@
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/opensans-regular-webfont.eot');
+    src: url('../fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-regular-webfont.woff') format('woff'),
+         url('../fonts/opensans-regular-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-regular-webfont.svg#open_sansextrabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'open_sansextrabold';
+    src: url('../fonts/opensans-extrabold-webfont.eot');
+    src: url('../fonts/opensans-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-extrabold-webfont.woff') format('woff'),
+         url('../fonts/opensans-extrabold-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-extrabold-webfont.svg#open_sansextrabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+        
+}
+
+.header {
+	
+	background: white;	
+	margin-bottom: 1px;
+	
+}
+
+.carrousell {
+
+	background: url(../images/img-carousel.jpg)no-repeat center center;
+	background-size: cover;
+	margin-bottom: 35px;
+	position: relative;
+	height: 505px;
+	text-align:center;
+	
+}
+
+.carrousell:before {
+	content: "";
+	vertical-align: middle;
+	display: inline-block;
+	height:100%;
+	
+	
+}
+.cr-title {
+	
+	display:inline-block;
+	text-align: center;
+	width: 500px;
+	font-family: 'open_sansregular';
+	color: white;	
+}
+.cr-title h1 em { 
+	font-family: 'open_sansextrabold';
+}
+.cr-title a{
+	padding:17px 0;
+	display: inline-block;
+	height: 56px;
+	width: 181px;
+	vertical-align: middle;
+	margin: 12px;
+	
+	
+	
+}
+
+.parrafo {
+	
+	margin-bottom: 10px;
+}
+
+.blue-button {
+	background: #34476C;
+	width: 200px;
+	border-radius: 10px;
+	
+}
+.orange-button {
+	background: #DB6D00;
+	width: 200px;
+	border-radius: 10px;
+	
+}
+
+.crs-prev {
+	
+	background: rgba(0, 0, 0, 0.2);
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 20px;
+	bottom: 20px;
+}
+.news {
+
+	
+	background: #ffffff;
+	max-width: 1000px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+
+	
+}
+.social {
+
+	background: #DDDDDD;
+	max-width: 1000px;
+	margin: 0 auto;
+	box-shadow: 3px 3px 4px rgba(0,0,0,0.2;);
+	
+	
+}
+
+.rounded {
+	
+	border-radius: 50%;
+}
+
+.footer {
+	background: #34476C;
+	margin-top: 20px;
+	color: white;
+	
+
+}
+
+.ftr-content {
+	max-width:1000px;
+}
+
+.hdr-inner {
+	width: 940px;
+	padding: 0 20px;
+	margin: 0 auto;
+	
+}
+.hdr-left{
+	float: left;
+}
+.hdr-right{
+	float: right;
+}
+
+
+
+.cl:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+
+.inl-list li {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 2px;
+	
+	}
+
+.cr-inl-list li {
+	display: inline-block;
+	vertical-align: middle;
+	
+	
+	}
+
+.left {
+	float:left;
+	margin: 5px;
+}
+
+.right {
+	float:right;
+	margin: 5px;
+}	
+	
+	.inl-list li:first-child {
+
+		margin-left: 0;
+		
+	}
+
+.iln {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.box-title {
+
+	font-size: 32px;
+	font-family: 'open_sansextrabold';
+	padding: 5px;
+	border-bottom: 1px;
+	text-shadow: 1px 1px 0px rgba(0,0,0,0.15);
+	
+}
+.news-inner-left {
+	width: 64%;
+	padding: 10px;
+}
+.news-inner-right {
+	width: 30%;
+}
+.enlaces {
+	border: 2px dotted block;
+}
+.share {
+	background: yellow;
+	width: 300px;
+
+}
+.cr-prev {
+
+
+	position: absolute;
+	left: 0;
+	
+	top: 0px;
+	bottom: 0px;
+}
+.cr-prev a{
+
+	background: url(../images/arrow-left.png) no-repeat center center;
+	text-indent: -9999px;
+	display: block;
+	height: 100%;
+	width: 60px;
+	
+
+	
+}
+.cr-next a{
+
+	background: url(../images/arrow-right.png) no-repeat center center;
+	text-indent: -9999px;
+	display: block;
+	height: 100%;
+	width: 60px;
+	
+	
+}
+.cr-next{
+	
+	position: absolute;
+	
+	right: 0;
+	top: 0px;
+	bottom: 0px;
+	
+}
+.cr-nav {
+	position: absolute;
+	bottom: 3px;
+	text-align: center;
+	right: 0;
+	left: 0;
+	
+		
+}
+
+.cr-nav a{
+	height: 10px;
+	width: 10px;
+	background-color: white;
+	border-radius: 50%;
+	text-indent: -9999px;
+	display:block;
+}
+.azul {
+
+	height: 12px;
+	border-radius: 12px;
+	background: #00BBFF;
+	width: 40%;
+}
+.blanco {
+
+	height: 12px;
+	border-radius: 12px;
+	background: white;
+
+	
+}
+.inl-list .blanco {
+
+	width: 200px;
+	display: inline-block;
+	vertical-align: middle;
+
+	
+}
+

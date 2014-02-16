@@ -1,0 +1,19 @@
+[class*="icon-"] {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background-image: url(sprites.svg);
+	background-repeat: no-repeat;
+}
+.icon-clubs {
+	background-position: 0 0;
+	width: 32px;
+}
+.icon-arrow-left {
+	background-position: -48px 0;
+	width: 32px;
+}
+.icon-arrow-right {
+	background-position: -96px 0;
+	width: 32px;
+}
